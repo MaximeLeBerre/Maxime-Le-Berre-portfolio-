@@ -1,8 +1,103 @@
-/* RESET DEFAULT SETTINGS */
+/*-------------RESET DEFAULT SETTINGS-------------*/
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/*-------------GLOBAL VARIABLES-------------*/
+:root{
+    /*---variables for text color---*/
+    --text-white: #fffffe;
+    --text-sand: #DAC180;
+    /*---variables for font desktop---*/
+    --font-x-large-desktop: 80px;
+    --font-large-desktop: 60px;
+    --font-meduim-desktop: 40px;
+    --font-small-desktop: 30px;
+    --font-x-small-desktop: 10px;
+    /*---variables for font mobile---*/
+    --font-x-large-mobile: 50px;
+    --font-large-mobile: 40px;
+    --font-meduim-mobile: 30px;
+    --font-small-mobile: 20px;
+    --font-x-small-mobile: 10px;
+    /*---variables for width & height---*/
+    --width-max: 100vw;
+    --height-max: 100vh;
+}
 
+/*-------------BODY CSS-------------*/
+body{
+    width: var(--width-max);
+    overflow-x: hidden;
+    background-color: #010101;
+}
+
+/*-------------HEADER SECTION-------------*/
+.header{
+    width: var(--width-max);
+    height: var(--height-max);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10%;
+}
+.header-text-container{
+    width: 40%;
+}
+.header-img-container{
+    width: 60%;
+}
+.header-banner{
+    width: 120%;
+}
+.name{
+    color: var(--text-white);
+    font-size: var(--font-x-large-desktop);
+}
+.function{
+    color: var(--text-sand);
+    text-transform: uppercase;
+    font-size: var(--font-small-desktop);
+}
+/*-------------HEADER RESPONSIVE-------------*/
+
+@media (max-width: 480px){
+    .header{
+        width: var(--width-max);
+        height: var(--height-max);
+        display: flex;
+        flex-direction: column;
+        padding: 10%;
+    }
+    .header-text-container{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .header-img-container{
+        width: 100%;
+    }
+    .header-img-container::after{
+        content: "developpeur web & mobile";
+        color: var(--text-sand);
+        text-transform: uppercase;
+        font-weight: bold;
+        display: flex;
+        justify-content: center;
+        margin-top: 20%;
+        font-size: var(--font-small-mobile);
+    }
+    .name{
+        font-size: var(--font-x-large-mobile);
+        margin-bottom: 20px;
+    }
+    .function{
+        display: none;
+    }
+    .header-banner{
+        width: 100%;
+    }
+}
