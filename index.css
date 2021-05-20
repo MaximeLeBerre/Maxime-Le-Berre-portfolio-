@@ -8,6 +8,8 @@
 /*-------------GLOBAL VARIABLES-------------*/
 :root{
     /*---variables for text color---*/
+    --letter-spacing: 2px;
+    /*---variables for text color---*/
     --text-white: #fffffe;
     --text-sand: #DAC180;
     /*---variables for font desktop---*/
@@ -116,3 +118,43 @@ body{
         margin-bottom: 20px;
     }
 }
+
+/*-------------PROJECT SECTION-------------*/
+.project{
+    width: var(--width-max);
+    height: auto;
+    padding: 5%;
+}
+.project-list-title{
+    font-size: var(--font-small-desktop);
+    color: var(--text-sand);
+    text-transform: uppercase;
+    letter-spacing: var(--letter-spacing);
+}
+.project-image-container{
+    margin: 100px;
+}
+.project-image-container ul li:nth-child(odd){
+    display: flex;
+    justify-content: flex-start;
+}
+.project-image-container ul li:nth-child(even){
+    display: flex;
+    justify-content: flex-end;
+}
+.project-img{
+    width: 45%;
+    margin: 20px;
+}
+.project-title{
+    color: var(--text-white);
+    text-transform: uppercase;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*-------------PROJECT RESPONSIVE-------------*/
+/*---MOBILE SCREEN*/
+
+/*---TABLET & LAPTOP SCREEN*/
