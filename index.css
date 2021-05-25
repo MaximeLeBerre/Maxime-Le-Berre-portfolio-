@@ -28,6 +28,14 @@
     --width-max: 100vw;
     --height-max: 100vh;
 }
+/*-------------FREQUENT CLASSES-------------*/
+
+@media (max-width: 480px){
+    .display-none-xs{
+        display: none !important;
+    }
+}
+
 
 /*-------------BODY CSS-------------*/
 body{
@@ -156,5 +164,35 @@ body{
 }
 /*-------------PROJECT RESPONSIVE-------------*/
 /*---MOBILE SCREEN*/
-
+@media  (max-width: 480px){
+    .project-image-container{
+        margin: 0px;
+    }
+    .project-image-container ul li{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .project-list-title{
+        margin-bottom: 30px;
+    }
+    .project-title-mobile{
+        color: var(--text-white);
+        text-transform: uppercase;
+        font-weight: bold;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    .project-title{
+        width: 100%;
+    }
+    .project-img{
+        width: 100%;
+    }
+}
 /*---TABLET & LAPTOP SCREEN*/
+@media (max-width: 1024px){
+
+}
