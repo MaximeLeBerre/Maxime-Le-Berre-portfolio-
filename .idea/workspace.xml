@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6c66fd9f-02d3-4ded-8c9b-46031447a75e" name="Default Changelist" comment="docs(main):  add gitignore">
+    <list default="true" id="6c66fd9f-02d3-4ded-8c9b-46031447a75e" name="Default Changelist" comment="style(main):  change icons">
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,6 +72,11 @@
       <workItem from="1621536568526" duration="4904000" />
       <workItem from="1621686165380" duration="1437000" />
       <workItem from="1621969819003" duration="2654000" />
+      <workItem from="1621973718084" duration="54000" />
+      <workItem from="1622058027041" duration="493000" />
+      <workItem from="1622098119862" duration="77000" />
+      <workItem from="1622296814863" duration="628000" />
+      <workItem from="1622468888776" duration="7119000" />
     </task>
     <task id="LOCAL-00001" summary="style(main):  make project section responsive and add adocc img">
       <created>1621972007945</created>
@@ -93,7 +99,28 @@
       <option name="project" value="LOCAL" />
       <updated>1621972283281</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="structure(main):  add menu structure">
+      <created>1622470186311</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1622470186311</updated>
+    </task>
+    <task id="LOCAL-00005" summary="feat(main):  menu done">
+      <created>1622473331913</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1622473331913</updated>
+    </task>
+    <task id="LOCAL-00006" summary="style(main):  change icons">
+      <created>1622489687286</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1622489687286</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -114,6 +141,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="style(main):  make project section responsive and add adocc img" />
     <MESSAGE value="docs(main):  add gitignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="docs(main):  add gitignore" />
+    <MESSAGE value="structure(main):  add menu structure" />
+    <MESSAGE value="feat(main):  menu done" />
+    <MESSAGE value="style(main):  change icons" />
+    <option name="LAST_COMMIT_MESSAGE" value="style(main):  change icons" />
   </component>
 </project>
