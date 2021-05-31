@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6c66fd9f-02d3-4ded-8c9b-46031447a75e" name="Default Changelist" comment="style(main):  change icons">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="6c66fd9f-02d3-4ded-8c9b-46031447a75e" name="Default Changelist" comment="feat(main):  add mouse follower">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,7 +121,21 @@
       <option name="project" value="LOCAL" />
       <updated>1622489687286</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="feat(main):  add mouse follower">
+      <created>1622494888997</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1622494888997</updated>
+    </task>
+    <task id="LOCAL-00008" summary="feat(main):  add mouse follower">
+      <created>1622494902978</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1622494902978</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -144,6 +159,7 @@
     <MESSAGE value="structure(main):  add menu structure" />
     <MESSAGE value="feat(main):  menu done" />
     <MESSAGE value="style(main):  change icons" />
-    <option name="LAST_COMMIT_MESSAGE" value="style(main):  change icons" />
+    <MESSAGE value="feat(main):  add mouse follower" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(main):  add mouse follower" />
   </component>
 </project>

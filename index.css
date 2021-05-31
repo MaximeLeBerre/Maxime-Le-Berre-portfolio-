@@ -382,3 +382,16 @@ transform: scale(1.2);
 
 }
 
+/*-------------MOUSE-------------*/
+#mouse-circle {
+    position: absolute;
+    width: 74px;
+    height: 74px;
+    margin: -32px 0px 0px -32px;
+    border: 1px solid #fffffe;
+    border-radius: 50%;
+    pointer-events: none !important;
+    box-shadow: 0 0 16px #fffffe;
+    background-color: RGBA(255, 255, 255,0.2)
+}
+
