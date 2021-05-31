@@ -36,7 +36,6 @@
     }
 }
 
-
 /*-------------BODY CSS-------------*/
 body{
     width: var(--width-max);
@@ -195,4 +194,49 @@ body{
 /*---TABLET & LAPTOP SCREEN*/
 @media (max-width: 1024px){
 
+}
+
+/*-------------MENU BURGER-------------*/
+.container-corner{
+    position: absolute;
+    right: 40px;
+    top: 40px;
+}
+.circle-menu{
+
+}
+.links-circle{
+
+}
+.btn-circle{
+    background-color: var(--text-sand);
+    display: block;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    position: relative;
+    z-index: 15;
+    outline: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 2px solid var(--text-white);
+}
+.line{
+    width: 50%;
+    height: 3px;
+    background-color: #fffffe;
+    transition:
+    transform 0.2ms ease,
+    opacity 0.2ms ease,
+    top 0.2ms ease;
+    position: relative;
+}
+.line:nth-child(1){
+    top: -10px
+}
+.line:nth-child(3){
+    top: 10px
 }
