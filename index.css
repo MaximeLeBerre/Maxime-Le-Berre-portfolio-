@@ -41,6 +41,7 @@ body{
     width: var(--width-max);
     overflow-x: hidden;
     background-color: #010101;
+    font-family: 'Bangers', cursive;
 }
 
 /*-------------HEADER SECTION-------------*/
