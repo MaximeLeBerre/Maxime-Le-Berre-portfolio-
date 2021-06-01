@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6c66fd9f-02d3-4ded-8c9b-46031447a75e" name="Default Changelist" comment="feat(main):  add mouse follower">
+    <list default="true" id="6c66fd9f-02d3-4ded-8c9b-46031447a75e" name="Default Changelist" comment="style(main):  change font">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
@@ -78,6 +79,8 @@
       <workItem from="1622098119862" duration="77000" />
       <workItem from="1622296814863" duration="628000" />
       <workItem from="1622468888776" duration="7119000" />
+      <workItem from="1622531139704" duration="365000" />
+      <workItem from="1622563495253" duration="1764000" />
     </task>
     <task id="LOCAL-00001" summary="style(main):  make project section responsive and add adocc img">
       <created>1621972007945</created>
@@ -135,7 +138,21 @@
       <option name="project" value="LOCAL" />
       <updated>1622494902978</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="feat(main):  add mouse follower">
+      <created>1622496530098</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1622496530098</updated>
+    </task>
+    <task id="LOCAL-00010" summary="style(main):  change font">
+      <created>1622569091316</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1622569091316</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -160,6 +177,7 @@
     <MESSAGE value="feat(main):  menu done" />
     <MESSAGE value="style(main):  change icons" />
     <MESSAGE value="feat(main):  add mouse follower" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(main):  add mouse follower" />
+    <MESSAGE value="style(main):  change font" />
+    <option name="LAST_COMMIT_MESSAGE" value="style(main):  change font" />
   </component>
 </project>
