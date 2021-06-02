@@ -44,7 +44,10 @@ a {
     text-decoration: none;
     link-style: none;
 }
-/*-------------BODY CSS-------------*/
+/*-------------HTML & BODY CSS-------------*/
+html{
+    scroll-behavior: smooth;
+}
 body{
     width: var(--width-max);
     overflow-x: hidden;
@@ -81,7 +84,6 @@ body{
     font-size: var(--font-small-desktop);
 }
 /*-------------HEADER RESPONSIVE-------------*/
-
 /*---MOBILE SCREEN---*/
 @media (max-width: 480px){
     .header{
@@ -133,7 +135,6 @@ body{
         margin-bottom: 20px;
     }
 }
-
 /*-------------MENU BURGER-------------*/
 .container-corner{
     position: absolute;
@@ -249,7 +250,6 @@ transform: scale(1.2);
     transform: rotate(-45deg);
     transition: top 0.2s ease, transform 0.2s ease 0.2s;
 }
-
 /*-------------PROJECT SECTION-------------*/
 .project{
     width: var(--width-max);
@@ -319,7 +319,6 @@ transform: scale(1.2);
 @media (max-width: 1024px){
 
 }
-
 /*-------------CERTIFICATE SECTION-------------*/
 .certificate{
     width: var(--width-max);
@@ -389,7 +388,6 @@ transform: scale(1.2);
 @media (max-width: 1024px){
 
 }
-
 /*-------------MOUSE-------------*/
 #mouse-circle {
     position: absolute;
@@ -402,7 +400,6 @@ transform: scale(1.2);
     box-shadow: 0 0 16px #fffffe;
     background-color: RGBA(255, 255, 255,0.2)
 }
-
 /*-------------CONTACT SECTION-------------*/
 .contact{
     width: var(--width-max);
@@ -436,4 +433,3 @@ transform: scale(1.2);
     text-transform: uppercase;
     letter-spacing: var(--letter-spacing);
 }
-

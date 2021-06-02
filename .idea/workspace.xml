@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6c66fd9f-02d3-4ded-8c9b-46031447a75e" name="Default Changelist" comment="style(main):  change font">
+    <list default="true" id="6c66fd9f-02d3-4ded-8c9b-46031447a75e" name="Default Changelist" comment="feat(main): add contact section">
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_25_05_2021_21_47_[Default_Changelist]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_25_05_2021_21_47__Default_Changelist_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/index.css" afterDir="false" />
@@ -14,7 +16,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
@@ -80,7 +81,8 @@
       <workItem from="1622296814863" duration="628000" />
       <workItem from="1622468888776" duration="7119000" />
       <workItem from="1622531139704" duration="365000" />
-      <workItem from="1622563495253" duration="1764000" />
+      <workItem from="1622563495253" duration="6244000" />
+      <workItem from="1622656082010" duration="377000" />
     </task>
     <task id="LOCAL-00001" summary="style(main):  make project section responsive and add adocc img">
       <created>1621972007945</created>
@@ -152,7 +154,21 @@
       <option name="project" value="LOCAL" />
       <updated>1622569091316</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="style(main):  change font">
+      <created>1622574174183</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1622574174183</updated>
+    </task>
+    <task id="LOCAL-00012" summary="feat(main): add contact section">
+      <created>1622578645182</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1622578645182</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -178,6 +194,7 @@
     <MESSAGE value="style(main):  change icons" />
     <MESSAGE value="feat(main):  add mouse follower" />
     <MESSAGE value="style(main):  change font" />
-    <option name="LAST_COMMIT_MESSAGE" value="style(main):  change font" />
+    <MESSAGE value="feat(main): add contact section" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(main): add contact section" />
   </component>
 </project>
