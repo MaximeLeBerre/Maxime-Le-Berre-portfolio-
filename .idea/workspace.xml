@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6c66fd9f-02d3-4ded-8c9b-46031447a75e" name="Default Changelist" comment="feat(main): add contact section">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_25_05_2021_21_47_[Default_Changelist]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_25_05_2021_21_47__Default_Changelist_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="6c66fd9f-02d3-4ded-8c9b-46031447a75e" name="Default Changelist" comment="style(main): add smooth scrool">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
@@ -82,7 +79,7 @@
       <workItem from="1622468888776" duration="7119000" />
       <workItem from="1622531139704" duration="365000" />
       <workItem from="1622563495253" duration="6244000" />
-      <workItem from="1622656082010" duration="377000" />
+      <workItem from="1622656082010" duration="1108000" />
     </task>
     <task id="LOCAL-00001" summary="style(main):  make project section responsive and add adocc img">
       <created>1621972007945</created>
@@ -168,7 +165,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622578645182</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="style(main): add smooth scrool">
+      <created>1622656542493</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1622656542493</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -195,6 +199,7 @@
     <MESSAGE value="feat(main):  add mouse follower" />
     <MESSAGE value="style(main):  change font" />
     <MESSAGE value="feat(main): add contact section" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(main): add contact section" />
+    <MESSAGE value="style(main): add smooth scrool" />
+    <option name="LAST_COMMIT_MESSAGE" value="style(main): add smooth scrool" />
   </component>
 </project>
