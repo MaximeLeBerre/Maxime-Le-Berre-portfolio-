@@ -446,12 +446,40 @@ transform: scale(1.2);
 50%{top:0em}
 100%{top:0em;}
 }
-.btn-mail{
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.footer-text{
+    color: var(--text-sand);
+}
+.rs-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 20%;
+    height: 10vh;
+    align-items: center;
+}
+.rs{
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+}
+.git{
+    background-image: url("img/git.png");
+    background-size: cover;
     animation-delay:0.07s
 }
-.btn-git{
+.linkedin{
+    background-image: url("img/linkedin.png");
+    background-size: cover;
     animation-delay:0.10s
 }
-.btn-link{
+.mail{
+    background-image: url("img/mail.png");
+    background-size: cover;
     animation-delay:0.13s
 }
