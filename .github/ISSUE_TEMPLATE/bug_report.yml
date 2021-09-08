@@ -24,7 +24,7 @@ body:
     id: description
     attributes:
       label: Description du bug
-      description: Que s"\u0027"est-il passé ? 
+      description: Que s'est-il passé ? 
       placeholder: Quel est le bug ? 
     validations:
       required: true
