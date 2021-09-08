@@ -1,8 +1,7 @@
-name: Bug Report
+name: BUUUG
 description: This file help you do to a bug report
 title: "[Bug]: "
 labels: [bug, triage]
-assignees: [MaximeLeBerre]
 body:
   - type: markdown
     attributes:
