@@ -25,7 +25,7 @@ body:
     attributes:
       label: Description du bug
       description: Que s'est-il passé ? 
-      placeholder: Quel est le bug ? 
+      placeholder: Le bug est...
     validations:
       required: true
   - type: textarea
@@ -33,12 +33,13 @@ body:
     attributes:
       label: Comment reproduire le bug ? 
       description: Quel est le parcours, l'utilisateur ? 
+      placeholder: Pour reproduire le bug il faut...
     validations:
       required: true
   - type: dropdown
     id: browsers
     attributes:
-      label: What browsers are you seeing the problem on?
+      label: Quel est le navigateur utilisé ?
       multiple: true
       options:
         - Firefox
@@ -48,14 +49,19 @@ body:
   - type: textarea
     id: logs
     attributes:
-      label: Relevant log output
-      description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
+      label: Quels sont les logs (debug)
+      description: Log de la console ou du debugger
       render: shell
-  - type: checkboxes
-    id: terms
+  - type: textarea
+    id: test
     attributes:
-      label: Code of Conduct
-      description: By submitting this issue, you agree to follow our [Code of Conduct](https://example.com)
-      options:
-        - label: I agree to follow this project's Code of Conduct
-          required: true
+      label: Le bug est résolu ! Que faire pour tester ? 
+      description: Les étapes pour tester ?
+      placeholder: Pour tester il faut...
+  - type: textarea
+    id: impact
+    attributes:
+      label: Quels sont les élèments impactés ?
+      description: Quels sont les élèments impactés ? 
+      placeholder: Formulaires, state, commandes...
+
