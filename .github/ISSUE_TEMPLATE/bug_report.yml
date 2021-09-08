@@ -8,15 +8,18 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thanks for taking the time to fill out this bug report!
-  - type: input
-    id: contact
+        Merci de remplir correctement tous les champs!
+  - type: dropdown
+    id: enviro
     attributes:
-      label: Contact Details
-      description: How can we get in touch with you if we need more info?
-      placeholder: ex. email@example.com
+      label: Environnement
+      description: Sur quel environnement ?
+      options:
+        - local
+        - pre-prod
+        - prod
     validations:
-      required: false
+      required: true
   - type: textarea
     id: what-happened
     attributes:
