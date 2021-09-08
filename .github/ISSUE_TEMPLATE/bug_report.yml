@@ -5,11 +5,11 @@ labels: [bug, triage]
 assignees:
   - 
 body:
-  - type: markdown
+  type: markdown
     attributes:
       value: |
         Merci de remplir correctement tous les champs
-  type: dropdown
+  - type: dropdown
     id: enviro
     attributes:
       label: Environnement
