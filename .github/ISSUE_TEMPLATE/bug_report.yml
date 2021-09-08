@@ -1,5 +1,5 @@
-name: "Bug Report"
-description: "This file help you do to a bug report"
+name: Bug Report
+description: This file help you do to a bug report
 title: "[Bug]: "
 labels: [bug, triage]
 body:
@@ -55,4 +55,11 @@ body:
     attributes:
       label: Le bug est résolu ! Que faire pour tester ? 
       description: Les étapes pour tester ?
- 
+- type: checkboxes
+    id: terms
+    attributes:
+      label: Code of Conduct
+      description: By submitting this issue, you agree to follow our [Code of Conduct](https://example.com)
+      options:
+        - label: I agree to follow this project's Code of Conduct
+          required: true
