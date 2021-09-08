@@ -28,14 +28,11 @@ body:
       placeholder: Quel est le bug ? 
     validations:
       required: true
-  - type: dropdown
-    id: version
+  - type: textarea
+    id: reproduire
     attributes:
-      label: Version
-      description: What version of our software are you running?
-      options:
-        - 1.0.2 (Default)
-        - 1.0.3 (Edge)
+      label: Comment reproduire le bug ? 
+      description: Quel est le parcours, l'utilisateur ? 
     validations:
       required: true
   - type: dropdown
